@@ -12,9 +12,9 @@ yolcuBilgisiExcelKopyasi = "Gökay	Özcan	19.07.2002	38398628254	haytaa002@gmail
 gender = "erkek"
 
 link = "https://www.turkishairlines.com/tr-int/ucak-bileti/rezervasyon/"
-service = Service('C:/Users/gokay/Desktop/YAZILIM/webApp/biletlemeOtomasyon/msedgedriver.exe')
+service = Service('C:/Users/acer/Desktop/gokay/T3/TeknofestBiletleme/chromedriver.exe')
 # driver = webdriver.Chrome(service=service)
-driver = webdriver.Edge(service=service)
+driver = webdriver.Chrome(service=service)
 driver.get(link)
 
 # formun olduğu siteye geldik mi
